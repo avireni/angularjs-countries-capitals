@@ -1,0 +1,92 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0;
+}
+
+.page-header {
+	text-align: center;
+}
+
+
+.btnClass {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+
+tr {
+	cursor: pointer;
+	width: 100%;
+
+}
+
+.info a {
+	color: #ba050f;
+}
+
+.home,
+.info {
+	width: 480px;
+	margin: 0 auto;
+}
+
+.images {
+	width: 480px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#map {
+	max-width: 240px;
+}
+
+#flag {
+	max-width: 240px;
+}
+
+.neighbors .neighbor {
+	float: left;
+}
+.footerClass{
+	margin-top: 20px;
+}
+.loading {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.loading:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	background: rgba(255, 255, 255, 0.95) no-repeat center center;
+	background-image: url("/app/assets/spiffygif.gif");
+	background-size: 50px;
+}
+
+.animate-view-container {
+	position: relative;
+	min-height: 100%;
+}
+
+.animate-view.ng-enter {
+	transition: 1.5s linear all;
+}
+
+.animate-view.ng-enter {
+	opacity: 0;
+	z-index: 100;
+}
+
+.animate-view.ng-enter.ng-enter-active {
+	opacity: 1;
+}
