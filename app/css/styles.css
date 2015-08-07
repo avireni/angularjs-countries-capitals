@@ -69,7 +69,7 @@ tr {
 	top: 0;
 	z-index: 1000;
 	background: rgba(255, 255, 255, 0.95) no-repeat center center;
-	background-image: url("/app/assets/spiffygif.gif");
+	background-image: url("../assets/spiffygif.gif");
 	background-size: 50px;
 }
 
